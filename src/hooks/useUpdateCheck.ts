@@ -2,7 +2,7 @@ import { useCallback, useEffect } from "react";
 import { useUpdateStore } from "../store/useUpdateStore";
 
 const VERSION_URL =
-  "https://raw.githubusercontent.com/AstroDevCompany/mint-update-links/refs/heads/main/mintbalance.ini";
+  "https://raw.githubusercontent.com/montanari-luca/mint-update-links/refs/heads/main/mintbalance.ini";
 
 const isNewerVersion = (current: string, latest: string) => {
   const curParts = current.split(".").map((p) => Number(p) || 0);
